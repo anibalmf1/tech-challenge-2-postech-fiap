@@ -1,7 +1,7 @@
-"""Create medical_cost and medical_cost_file tables
+"""Create resources table
 
 Revision ID: 30e357373cbb
-Revises: 
+Revises:
 Create Date: 2024-07-26 16:42:13.071073
 
 """
@@ -28,7 +28,7 @@ def upgrade() -> None:
         storage numeric(7, 2) not null,
         network_bandwidth numeric(7, 2) not null,
         energy_consumption numeric(7, 2) not null,
-        status varchar(50) not null,
+        status varchar(50) not null
     )
     ''')
     # ### end Alembic commands ###

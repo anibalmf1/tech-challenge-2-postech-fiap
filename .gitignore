@@ -1,3 +1,4 @@
 .idea
 app.log
 plot/
+__pycache__/
