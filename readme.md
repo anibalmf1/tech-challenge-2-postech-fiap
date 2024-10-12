@@ -6,6 +6,8 @@ Aníbal - Leonardo
 * Docker
 * docker-compose
 * python3.10
+* alembic: https://alembic.sqlalchemy.org/en/latest/front.html#installation
+* uvicorn: https://www.uvicorn.org/
 
 ## Run locally
 
@@ -33,7 +35,7 @@ pip install -r requirements.txt
 Now we just need to run our API on uvicorn
 
 ```shell
-uvicorn app.app:app --reload 
+uvicorn app.app:app --reload
 ```
 
 With that our application we'll be up and responding on port 8000
